@@ -24,6 +24,9 @@ java -jar wizy.jar --dateFrom="2017-04-12" --dateTo="2017-04-15" --from="CLJ" --
 - adults: number of adults; defaults to 1
 - childs: number of children; defaults to 0
 
+# emails
+The emails will get details around the prices with Wizz Discount Club membership and only for the base bundle. Maybe in the future I'll offer the possiblity so select the type of bundle you want to get notified.
+
 # notice
 Wizzair tends to update their API version quite often. If you get a 503 when calling the service you probably need to update the endpoint URL in ```application.properties```.
 
