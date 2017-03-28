@@ -1,0 +1,6 @@
+src/main/resources/application-default.properties
+*.class
+.classpath
+.settings
+.project
+target/
