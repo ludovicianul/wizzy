@@ -14,7 +14,7 @@ java -jar wizzy.jar --dateFrom="YYYY-MM-DD" --dateTo="YYYY-MM-DD" --from="AIRPOR
 Usage example:
 
 ```bash
-java -jar wizy.jar --dateFrom="2017-04-12" --dateTo="2017-04-15" --from="CLJ" --to="BCN" --adults=2
+java -jar wizzy.jar --dateFrom="2017-04-12" --dateTo="2017-04-15" --from="CLJ" --to="BCN" --adults=2
 ```
 # properties
 - dateFrom: standard ISO date format for the departure date

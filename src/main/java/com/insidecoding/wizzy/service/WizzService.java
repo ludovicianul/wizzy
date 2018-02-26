@@ -65,6 +65,7 @@ public class WizzService {
 		WizzResponse response = rest.postForEntity(apiUrl, entity, WizzResponse.class).getBody();
 		LOG.info("Finish calling wizz api! Check your email!");
 		String emailBody = this.getEmailBody(response);
+		LOG.info("Will send email with the following details {}", emailBody);
 		emailService.sendEmail(emailBody);
 	}
 
